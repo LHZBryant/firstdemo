@@ -1,0 +1,4 @@
+localhost 0:0:0:0:0:0:0:1 - - [2016-12-22 12:50:11] "GET /sensor/nodeinfo/list HTTP/1.1" 200 361 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36" -
+localhost 0:0:0:0:0:0:0:1 - - [2016-12-22 12:50:12] "GET /favicon.ico HTTP/1.1" 404 295 "http://localhost:8080/sensor/nodeinfo/list" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36" -
+192.168.1.29 192.168.1.29 - - [2016-12-22 12:50:47] "GET /sensor/search/area?param=%7Barea:'%E6%88%BF%E9%97%B41',subArea:'%E5%A2%99%E8%A7%92'%7D HTTP/1.1" 200 25 "-" "python-requests/2.12.4" -
+192.168.1.29 192.168.1.29 - - [2016-12-22 14:04:36] "GET /sensor/search/area?param=%7Barea:'%E6%88%BF%E9%97%B41',subarea:'%E5%A2%99%E8%A7%92'%7D HTTP/1.1" 200 25 "-" "python-requests/2.12.4" -
